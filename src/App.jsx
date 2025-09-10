@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import './App.css'
+import Input from './components/Form/Input/Input'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+    <Input/>
     </>
   )
 }
