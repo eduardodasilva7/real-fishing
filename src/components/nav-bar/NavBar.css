@@ -1,0 +1,46 @@
+.navBar{
+  display: flex;
+  background-color: #2A7FFF;
+  align-items: center;
+  width: 95%;
+  height: 100px;
+  margin: 10px 12px;
+  border-radius: 25px;
+}
+
+.logoImg, .nav-link, .busca, .userText{
+  opacity: 0;
+}
+
+.logoImg{
+  height: 69px;
+  width: 69px;
+}
+
+.nav-link {
+  overflow: hidden;
+}
+
+.btnBurguer img{
+  height: 60px;
+  width: 60px;
+  margin:0 -50px ;
+}
+
+.userImg{
+
+  margin:0 -90px ;
+  z-index: 100;
+}
+
+.userImg img{
+  height: 50px;
+  width: 50px;
+}
+
+.nomeLoja{
+  font-size: 24px;
+  color: white;
+  width: 100px;
+
+}
