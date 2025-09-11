@@ -1,10 +1,13 @@
 import "../Input/input.css"
-const Input = () => {
+const Input = ({name_input, icon, className}) => {
     return(
         <div>
             <div className="input-body">
-                <i class="fa-regular fa-envelope" className="icon"></i>
-                <input type="text" placeholder="Email:" name="email" id="email" className="input"/>
+                <label htmlFor={name_input}></label>
+                <div className="input_icon">
+                    <i class={icon}></i>
+                    <input type="text" placeholder={name_input} name={name_input} className="input"/>
+                </div>
             </div>  
         </div>
     )

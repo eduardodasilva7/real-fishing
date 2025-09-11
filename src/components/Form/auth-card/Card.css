@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap&family=Open+Sans:ital,wght@0,300..800;1,300..800');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+}
+
+:root {
+    --cor-clara: #0C65C8;
+    --cor-escura: #0A4D9A;
+}
+
+.section_principal {
+    background: linear-gradient(160deg, var(--cor-clara) 0%, var(--cor-escura) 100%);
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.div_logo img{
+    width: 200px;
+    height: 200px;
+}
+
+.section_segundaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_segundaria h2{
+    margin-top: 30px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+
+.section_segundaria span{
+    margin-top: 30px;
+    color: white;
+    font-family: "", sans-serif;
+}
+
+.card-button {
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card-button:hover {
+  border-color: blue;
+}
+
+.section_form{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-image: url(../../../assets/water_logo.png);
+}
+.section_form h2{
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+
+.section_form span{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.div_form_campos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-button_form{
+    background-color: #0A4D9A;
+}
