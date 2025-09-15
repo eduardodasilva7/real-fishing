@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.main{
+.section_main{
     display: flex;
     width: 100%;
 }
@@ -70,33 +70,92 @@
   border-color: blue;
 }
 
-.section_form{
-    margin-top: 150px;
+.section_form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    background-image: url(../../../assets/water_logo.png);
+    justify-content: center; 
+    flex: 1;                
 }
-.section_form h2{
+.section_form h2 {
     margin-bottom: 10px;
     color: black;
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
 }
 
-.section_form span{
+.section_form span {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     margin-bottom: 50px;
 }
 
-.div_form_campos{
+.div_form_campos {
     display: flex;
     flex-direction: column;
+    width: 90%;
+    max-width: 450px; 
     align-items: center;
 }
 
-.card-button_form{
+.card-button_form {
     background-color: #0A4D9A;
+    border: 2px solid black;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white; 
+    cursor: pointer;
+}
+
+.forget-password {
+    align-self: flex-end; 
+    margin-bottom: 20px;
+    padding-right:20px ;
+    font-size: 0.9rem;
+}
+
+
+.forget-password:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.section_logins {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #555;
+    margin-top: 30px;
+    gap: 15px; 
+}
+
+.section_logins hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #CCC;
+}
+.section_logins span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.button_google{
+    margin-top: 20px;
+}
+
+.span-copywrite{
+    position: absolute;
+    bottom: 0;
+    margin: 0 !important;
+    top: 95%;
+    font-size: 0.8rem;
+}
+
+.eye-password{
+    position: absolute;
+    left: 0;
 }

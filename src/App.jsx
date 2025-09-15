@@ -1,12 +1,11 @@
 import './App.css'
-import Card from './components/Form/auth-card/card'
-import Button from './components/Form/Button/Button'
-import Input from './components/Form/Input/Input'
+import Login from './pages/Login/Login'
+import Cadastro from './pages/Cadastro/Cadastro'
 
 function App() {
   return (
     <>
-    <Card/>
+    <Cadastro/>
     </>
   )
 }
