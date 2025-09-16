@@ -1,7 +1,7 @@
-import "../Login/Login.css";
 import logo from "../../assets/logo.png"
 import Button from "../../components/Form/Button/Button.jsx"
 import Input from "../../components/Form/Input/Input.jsx";
+import "../Cadastro/Cadastro.css"
 
 const Card = () => {
   return (
@@ -22,10 +22,10 @@ const Card = () => {
           <h2>CRIAR CONTA</h2>
           <span>Procure os melhores descontos das melhores marcas</span>
           <div className="div_form_campos">
-            <Input name_input="Nome completo" icon="fa-regular fa-envelope" />
-            <Input name_input="seuemail@example.com" icon="fa-regular fa-envelope" />
-            <Input name_input="Digite sua senha"   icons={["fa fa-user", "fa fa-check eye-password"]} />
-            <Input name_input="Confirme sua senha" icons={["fa fa-user", "fa fa-check eye-password"]} />
+            <Input name_input="Nome completo" icons={["fa fa-user"]} />
+            <Input name_input="seuemail@example.com" icons={["fa-regular fa-envelope"]}/>
+            <Input name_input="Digite sua senha"   icons={["fa-solid fa-lock" ]} />
+            <Input name_input="Confirme sua senha" icons={["fa-solid fa-lock" ]}/>
             <Button children="Criar conta" className="card-button_form" />
 
             <div className="section_logins">
@@ -35,11 +35,11 @@ const Card = () => {
             </div>
 
             <Button children="Google" className="button_google"/>
-
-            <span className="span-copywrite">@Real Fishihg - 2025</span>
           </div>
+          <span className="span-copywrite">@Real Fishihg - 2025</span>
         </section>
       </section>
+     
     </main>
   );
 };

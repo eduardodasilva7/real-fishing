@@ -101,8 +101,8 @@
 .card-button_form {
     background-color: #0A4D9A;
     border: 2px solid black;
-    padding: 12px;
-    font-size: 1.1rem;
+    padding: 10px;
+    font-size: 1rem;
     color: white; 
     cursor: pointer;
 }
@@ -155,7 +155,79 @@
     font-size: 0.8rem;
 }
 
-.eye-password{
-    position: absolute;
-    left: 0;
+/* Mobile pequeno (até 480px) */
+@media (max-width: 480px) {
+
+/* Mobile pequeno (até 480px) */
+@media (max-width: 480px) {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section_principal {
+        display: none;
+    }
+
+    .section_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .section_form h2 {
+        margin-bottom: 10px;
+        color: black;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 30px;
+    }
+
+    .input-body{
+        width: 95%;
+    }
+
+    .input_icon{
+        width: 80%;
+    }
+
+    .card-button_form{
+        width: 95%;
+    }
+
+    .button_google{
+        width: 95%;
+    }
+}
+}
+
+/* Mobile médio (até 768px) */
+@media (max-width: 768px) {
+
+}
+
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+
+}
+
+/* Laptops pequenos (até 1280px) */
+@media (max-width: 1280px) {
+
+}
+
+/* Desktops grandes (até 1440px) */
+@media (max-width: 1440px) {
+
+}
+
+/* Monitores muito grandes (até 1920px) */
+@media (max-width: 1920px) {
+ 
 }

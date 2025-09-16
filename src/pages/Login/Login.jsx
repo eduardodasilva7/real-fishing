@@ -22,8 +22,8 @@ const Card = () => {
           <h2>BEM VINDO AO REAL FISHING</h2>
           <span>Procure os melhores descontos das melhores marcas</span>
           <div className="div_form_campos">
-            <Input name_input="Email" icon="fa-regular fa-envelope" />
-            <Input name_input="Senha" icon="fa-solid fa-lock" />
+            <Input name_input="Email" icons={["fa-regular fa-envelope"]} />
+            <Input name_input="Senha" icons={["fa-solid fa-lock" ]}/>
             <span className="forget-password">Esqueceu sua senha?</span>
             <Button children="Entrar" className="card-button_form" />
 
@@ -34,11 +34,10 @@ const Card = () => {
             </div>
 
             <Button children="Google" className="button_google"/>
-
-            <span className="span-copywrite">@Real Fishihg - 2025</span>
           </div>
         </section>
       </section>
+      <span className="span-copywrite">@Real Fishihg - 2025</span>
     </main>
   );
 };
