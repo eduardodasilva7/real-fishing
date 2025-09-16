@@ -1,0 +1,80 @@
+.title{
+  text-align: center;
+  margin: .5em;
+}
+
+.btnMarcas{
+  display: flex;
+  justify-content: space-around;
+  margin: 2em 0;
+}
+
+.btnMarcas img{
+  width: 70px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  border-radius: 60px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card h3{
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .card{
+    width: 150px;
+    height: 200px;
+    border-radius: 40px;
+  }
+
+  .card img{
+    width: 80px;
+    height: auto;
+  }
+}
+
+@media (max-width: 425px){
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card{
+    margin: 1em auto;
+  }
+
+  .btnMarca{
+    margin: 0 12px;
+    
+  }
+
+  .btnMarcas{
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+
+  .btnMarcas::-webkit-scrollbar {
+    display: none; 
+  }
+
+  
+}

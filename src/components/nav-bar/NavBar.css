@@ -1,46 +1,88 @@
+.img_fundo{
+  background-image: url('../../assets/img/menu_fundo.png');
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+}
+
 .navBar{
   display: flex;
   background-color: #2A7FFF;
-  align-items: center;
-  width: 95%;
-  height: 100px;
-  margin: 10px 12px;
+  width: 100%;
+  height: 90px;
+
   border-radius: 25px;
+  justify-content: space-between;
+  position: relative;
 }
 
-.logoImg, .nav-link, .busca, .userText{
+.logoImg{
   opacity: 0;
 }
 
 .logoImg{
   height: 69px;
   width: 69px;
+  position: absolute;
 }
 
-.nav-link {
-  overflow: hidden;
+.links{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.nav-links{
+  display: block;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+}
+
+.nav-links a{
+  text-decoration: none;
 }
 
 .btnBurguer img{
   height: 60px;
   width: 60px;
-  margin:0 -50px ;
+
 }
 
-.userImg{
-
-  margin:0 -90px ;
-  z-index: 100;
+.user-area{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
 }
 
 .userImg img{
   height: 50px;
   width: 50px;
+  border-radius: 15px;
 }
 
-.nomeLoja{
-  font-size: 24px;
-  color: white;
-  width: 100px;
+.busca{
+  display: flex; 
+  align-items: center;
+  background-color: white;
+  height: 50%;
+  justify-content: center;
+  /* margin-top: 1.1%; */ margin-top: 100px;
+  border-radius: 10px;
 
 }
+
+.imgBusca{
+  height: auto;
+  width: 30px;
+
+}
+
+.textBusca{
+  font-size: 17px;
+  border: none;
+
+}
+
